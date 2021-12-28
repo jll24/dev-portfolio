@@ -17,7 +17,7 @@ const Wrapper = styled.div`
   align-items: center;
   ${mobile({
     flexDirection: "column",
-    padding: "50px 0",
+    padding: "35px 0",
     alignItems: "unset",
   })}
 `;
@@ -48,7 +48,7 @@ const Item = styled.div`
   margin: 50px 0;
   font-weight: 400;
   width: 50%;
-  ${mobile({ margin: "20px 0", width: "100%" })}
+  ${mobile({ margin: "10px 0", width: "100%" })}
 `;
 
 const Link = styled.a`

@@ -11,7 +11,7 @@ const Container = styled.div`
   box-shadow: 15px 12px 16px rgba(0, 0, 0, 0.35);
   overflow: hidden;
   position: relative;
-  ${mobile({ width: "80%", height: "35vh" })};
+  ${mobile({ width: "80%", height: "40vh" })};
 `;
 const Content = styled.div`
   height: 100%;
