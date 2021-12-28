@@ -10,7 +10,8 @@ const Container = styled.div`
   ${mobile({
     flexDirection: "column",
     textAlign: "center",
-    height: "140vh",
+    height: "120vh",
+    alignItems: "space-around",
   })}
 `;
 
@@ -79,7 +80,7 @@ const Credential = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  ${mobile({ flexDirection: "column" })}
+  ${mobile({ display: "none" })}
 `;
 
 const ImgLink = styled.a``;
