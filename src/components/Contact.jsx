@@ -9,6 +9,7 @@ const Container = styled.div`
   height: 100vh;
   position: relative;
   padding-top: 50px;
+  ${mobile({ paddingTop: "30px" })}
 `;
 
 const Wrapper = styled.div`
@@ -35,7 +36,7 @@ const Title = styled.h2`
     fontSize: "44px",
     textAlign: "center",
     lineHeight: "50px",
-    marginBottom: "20px",
+    marginBottom: "10px",
   })}
 `;
 const InfoContainer = styled.div`
@@ -48,7 +49,7 @@ const Item = styled.div`
   margin: 50px 0;
   font-weight: 400;
   width: 50%;
-  ${mobile({ margin: "10px 0", width: "100%" })}
+  ${mobile({ margin: "5px 0", width: "100%" })}
 `;
 
 const Link = styled.a`
@@ -83,6 +84,7 @@ const Form = styled.form`
   display: flex;
   align-items: center;
   flex-direction: column;
+  ${mobile({ marginTop: "5px" })}
 `;
 const TextInput = styled.input`
   width: 70%;
@@ -91,7 +93,7 @@ const TextInput = styled.input`
   font-size: 14px;
   padding-left: 10px;
   border-radius: 10px;
-  ${mobile({ margin: "5px 0" })}
+  ${mobile({ margin: "3px 0" })}
 `;
 
 const MsgContainer = styled.textarea`
@@ -226,7 +228,7 @@ const Contact = () => {
               name="user_email"
             />
             <MsgContainer
-              rows="5"
+              rows="4"
               placeholder="Enter message..."
               name="message"
             />
