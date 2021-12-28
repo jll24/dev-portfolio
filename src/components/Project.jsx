@@ -26,7 +26,7 @@ const Content = styled.div`
     padding-top: 0;
     align-items: center;
     border-radius: 15px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px) brightness(0.5);
   }
 `;
 const Title = styled.h2`
