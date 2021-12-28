@@ -25,6 +25,7 @@ const Content = styled.div`
   &&:hover {
     padding-top: 0;
     align-items: center;
+    border-radius: 15px;
     backdrop-filter: blur(10px);
   }
 `;
