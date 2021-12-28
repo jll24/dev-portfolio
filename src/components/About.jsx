@@ -29,7 +29,7 @@ const Card = styled.div`
   border-radius: 30px;
   position: relative;
   overflow: hidden;
-  ${mobile({ height: "30vh", marginTop: "60px" })}
+  ${mobile({ height: "30vh" })}
 `;
 const CardBg = styled.div`
   width: 60%;
