@@ -50,7 +50,14 @@ const ProjectList = () => {
       </TextContainer>
       <List>
         {products.map((item) => (
-          <Project key={item.id} img={item.img} link={item.link} />
+          <Project
+            key={item.id}
+            img={item.img}
+            link={item.link}
+            desc={item.desc}
+            title={item.title}
+            source={item.source}
+          />
         ))}
       </List>
     </Container>

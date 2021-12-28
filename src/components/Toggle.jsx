@@ -10,7 +10,7 @@ const Container = styled.div`
   width: 70px;
   height: 35px;
   border-radius: 20px;
-  border: 1px solid #999;
+  border: 1px solid lightgray;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -24,8 +24,8 @@ const Moon = styled.img`
   height: 20px;
 `;
 const Button = styled.div`
-  width: 35px;
-  height: 35px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   background-color: #999;
   position: absolute;
@@ -42,7 +42,7 @@ const Toggle = () => {
       <Moon src="https://res.cloudinary.com/jllacson/image/upload/v1639383622/sampleShop/pngaaa.com-2925369_zzktiz.png" />
       <Button
         onClick={handleClick}
-        style={{ left: theme.state.darkMode ? 0 : 35 }}
+        style={{ left: theme.state.darkMode ? 3 : 35, transition: "0.4s" }}
       ></Button>
     </Container>
   );

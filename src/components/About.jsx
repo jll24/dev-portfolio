@@ -69,8 +69,10 @@ const AboutSub = styled.p`
 `;
 const AboutDesc = styled.p`
   width: 80%;
-  font-size: 18px;
+  font-size: 15px;
+  line-height: 25px;
   margin: 20px 0;
+  color: gray;
 `;
 const Credential = styled.div`
   margin-top: 20px;
@@ -119,7 +121,7 @@ const About = () => {
           So, Who Am I?
         </AboutTitle>
         <AboutSub>
-          A father, a husband, a provider, and a learner. All at once.
+          A father, a provider, and a learner. <br /> All at once.
         </AboutSub>
         <AboutDesc style={{ color: darkMode && "#ababab" }}>
           <q>
@@ -136,7 +138,10 @@ const About = () => {
         </AboutDesc>
         <Credential>
           <ImgLink href="https://www.upliftcodecamp.com/" target="_blank">
-            <CredentialImg src="https://res.cloudinary.com/jllacson/image/upload/v1639463569/sampleShop/69604110_102313884481364_4717041849666109440_n_jetpye.png" />
+            <CredentialImg
+              style={{ border: darkMode && "none" }}
+              src="https://res.cloudinary.com/jllacson/image/upload/v1639463569/sampleShop/69604110_102313884481364_4717041849666109440_n_jetpye.png"
+            />
           </ImgLink>
           <TextContainer>
             <TextTitle>Uplift Code Camp</TextTitle>

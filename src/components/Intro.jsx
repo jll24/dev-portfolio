@@ -57,7 +57,7 @@ const move = keyframes`
 const SkillsWrapper = styled.div`
   height: 100%;
   animation-name: ${move};
-  animation-duration: 10s;
+  animation-duration: 15s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -80,27 +80,20 @@ const DescContainer = styled.p`
 `;
 
 // Right Side
-const Right = styled.div`
+const Right = styled.picture`
   flex: 1;
   position: relative;
   ${mobile({ bottom: "73px" })}
 `;
 const ProfilePic = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 85%;
+  height: 85%;
   object-fit: cover;
   position: absolute;
-  top: 0;
+  top: 3vh;
+  left: 4vw;
 `;
-const Background = styled.div`
-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-  background-color: #001f38 ;
-  height: 100%;
-  width: 100%
-  position: absolute;
-  top: 0;
-  right: 0;
-`;
+const MobilePic = styled.source``;
 const Intro = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -136,11 +129,12 @@ const Intro = () => {
         </TextWrapper>
       </Left>
       <Right>
-        <Background
-          style={{ backgroundColor: darkMode && "#005a8f" }}
-        ></Background>
+        <MobilePic
+          media="(min-width:376px)"
+          srcSet="https://res.cloudinary.com/jllacson/image/upload/v1640613203/sampleShop/54-removebg-preview_quudoq.png"
+        />
         <ProfilePic
-          src="https://res.cloudinary.com/jllacson/image/upload/v1639119617/sampleShop/pngaaa.com-3224372_uz8itj.png"
+          src="https://res.cloudinary.com/jllacson/image/upload/v1640612050/sampleShop/52-removebg-preview_ilzc8t.png"
           alt=""
         />
       </Right>

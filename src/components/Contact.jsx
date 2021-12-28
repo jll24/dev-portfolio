@@ -1,33 +1,35 @@
 import styled from "styled-components";
-import PhoneIcon from "@mui/icons-material/Phone";
 import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import Alert from "@mui/material/Alert";
-import EmailIcon from "@mui/icons-material/Email";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { ThemeContext } from "../context";
 import { mobile } from "../responsive";
 
 const Container = styled.div`
   height: 100vh;
   position: relative;
+  padding-top: 50px;
 `;
 
 const Wrapper = styled.div`
-  padding: 50px;
+  padding: 30px;
   display: flex;
+  align-items: center;
   ${mobile({
     flexDirection: "column",
     padding: "50px 0",
+    alignItems: "unset",
   })}
 `;
 const Left = styled.div`
   flex: 1;
-  ${mobile({ display: "flex", flexDirection: "column", alignItems: "center" })}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 const Title = styled.h2`
   font-size: 60px;
-  width: 80%;
+  width: 100%;
   color: #ff6f00;
   ${mobile({
     fontSize: "44px",
@@ -36,14 +38,31 @@ const Title = styled.h2`
     marginBottom: "20px",
   })}
 `;
-const InfoContainer = styled.div``;
+const InfoContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 40%;
+`;
 const Item = styled.div`
   display: flex;
-  align-items: center;
   margin: 50px 0;
   font-weight: 400;
-  width: 70%;
-  ${mobile({ margin: "5px 0" })}
+  width: 50%;
+  ${mobile({ margin: "20px 0", width: "100%" })}
+`;
+
+const Link = styled.a`
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+`;
+const Img = styled.img`
+  height: 50px;
+  width: 50px;
+  transition: 1s;
+  &&:hover {
+    transform: rotate(-45deg);
+  }
 `;
 
 //Right Side
@@ -130,22 +149,55 @@ const Contact = () => {
           </Title>
           <InfoContainer>
             <Item>
-              <EmailIcon
-                style={{ margin: "0 20px 0 0", color: darkMode && "#ababab" }}
-              />
-              iamjohnlacson@gmail.com
+              <Link
+                href="https://www.linkedin.com/in/jllacson/"
+                target="_blank"
+              >
+                <Img
+                  style={{
+                    height: "53px",
+                    width: "53px",
+                    margin: "5px 8px 0 0",
+                  }}
+                  src="https://res.cloudinary.com/jllacson/image/upload/v1640686020/sampleShop/pngaaa.com-449868_vozzms.png"
+                />
+              </Link>
             </Item>
             <Item>
-              <PhoneIcon
-                style={{ margin: "0 20px 0 0", color: darkMode && "#ababab" }}
-              />
-              +63 935 505 1679
+              <Link href="https://www.instagram.com/jl.lacson/" target="_blank">
+                <Img
+                  style={{
+                    margin: "0 7px 0 0",
+                  }}
+                  src="https://res.cloudinary.com/jllacson/image/upload/v1640686020/sampleShop/pngaaa.com-6471265_qclmkv.png"
+                />
+              </Link>
             </Item>
             <Item>
-              <LinkedInIcon
-                style={{ margin: "0 20px 0 0", color: darkMode && "#ababab" }}
-              />
-              /jllacson
+              <Link href="https://www.facebook.com/jlacson97" target="_blank">
+                <Img
+                  style={{
+                    height: "58px",
+                    width: "58px",
+                  }}
+                  src="https://res.cloudinary.com/jllacson/image/upload/v1640688176/sampleShop/social-facebook-box-blue-icon_dhffoa.png"
+                />
+              </Link>
+            </Item>
+            <Item>
+              <Link
+                href="https://join.skype.com/invite/vVivgG9r8BdN"
+                target="_blank"
+              >
+                <Img
+                  style={{
+                    height: "58px",
+                    width: "58px",
+                    margin: "3px 0 0 7px",
+                  }}
+                  src="https://res.cloudinary.com/jllacson/image/upload/v1640688453/sampleShop/pngaaa.com-2171439_iheag2.png"
+                />
+              </Link>
             </Item>
           </InfoContainer>
         </Left>

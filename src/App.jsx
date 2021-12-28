@@ -21,11 +21,12 @@ const NavBar = styled.div`
   display: flex;
   align-items: center;
   z-index: 9;
-  border-radius: 0 23px 25px 0;
+  border-radius: 0 0 55px 0;
   left: -3px;
+  top: -2px;
   ${mobile({
     height: "75px",
-    bottom: "-2px",
+    top: "91vh",
     width: "104%",
     borderRadius: "initial",
   })};
@@ -59,7 +60,7 @@ const App = () => {
         style={{
           backgroundColor: darkMode ? "#001f38" : "white",
           color: darkMode ? "#00ccbb" : "#ff6f00",
-          border: darkMode ? "3px solid #005a8f" : "3px solid lightgray",
+          border: darkMode ? "2px solid #005a8f" : "2px solid lightgray",
         }}
       >
         <NavList>
