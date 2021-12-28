@@ -133,10 +133,7 @@ const Intro = () => {
           media="(min-width:376px)"
           srcSet="https://res.cloudinary.com/jllacson/image/upload/v1640613203/sampleShop/54-removebg-preview_quudoq.png"
         />
-        <ProfilePic
-          src="https://res.cloudinary.com/jllacson/image/upload/v1640612050/sampleShop/52-removebg-preview_ilzc8t.png"
-          alt=""
-        />
+        <ProfilePic srcSet="https://res.cloudinary.com/jllacson/image/upload/v1640613204/sampleShop/52-removebg-preview_zti7oe.png" />
       </Right>
     </Container>
   );
