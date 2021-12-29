@@ -176,17 +176,6 @@ const Contact = () => {
               </Link>
             </Item>
             <Item>
-              <Link href="https://www.facebook.com/jlacson97" target="_blank">
-                <Img
-                  style={{
-                    height: "58px",
-                    width: "58px",
-                  }}
-                  src="https://res.cloudinary.com/jllacson/image/upload/v1640688176/sampleShop/social-facebook-box-blue-icon_dhffoa.png"
-                />
-              </Link>
-            </Item>
-            <Item>
               <Link
                 href="https://join.skype.com/invite/vVivgG9r8BdN"
                 target="_blank"
@@ -198,6 +187,20 @@ const Contact = () => {
                     margin: "3px 0 0 7px",
                   }}
                   src="https://res.cloudinary.com/jllacson/image/upload/v1640688453/sampleShop/pngaaa.com-2171439_iheag2.png"
+                />
+              </Link>
+            </Item>
+            <Item>
+              <Link
+                href="https://drive.google.com/file/d/1z6OWO4cS-qM2d7-NlU_GiHZFHfbkD3V-/view?usp=sharing"
+                target="_blank"
+              >
+                <Img
+                  style={{
+                    height: "58px",
+                    width: "58px",
+                  }}
+                  src="https://res.cloudinary.com/jllacson/image/upload/v1640754588/sampleShop/Filetype-PDF-icon_jcvpfu.png"
                 />
               </Link>
             </Item>
