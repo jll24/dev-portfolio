@@ -29,7 +29,7 @@ const Left = styled.div`
   align-items: center;
 `;
 const Title = styled.h2`
-  font-size: 60px;
+  font-size: 50px;
   width: 100%;
   color: #ff6f00;
   ${mobile({
