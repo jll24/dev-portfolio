@@ -200,7 +200,7 @@ const Contact = () => {
                     width: "58px",
                     margin: "-1px 0 0 7px",
                   }}
-                  src="https://res.cloudinary.com/jllacson/image/upload/v1640754588/sampleShop/Filetype-PDF-icon_jcvpfu.png"
+                  src="https://res.cloudinary.com/jllacson/image/upload/v1640760931/sampleShop/resume-icon-png-19029_ahbmcz.png"
                 />
               </Link>
             </Item>
