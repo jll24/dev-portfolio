@@ -159,7 +159,7 @@ const Contact = () => {
                   style={{
                     height: "53px",
                     width: "53px",
-                    margin: "5px 8px 0 0",
+                    margin: "3px 8px 0 0",
                   }}
                   src="https://res.cloudinary.com/jllacson/image/upload/v1640686020/sampleShop/pngaaa.com-449868_vozzms.png"
                 />
@@ -169,7 +169,7 @@ const Contact = () => {
               <Link href="https://www.instagram.com/jl.lacson/" target="_blank">
                 <Img
                   style={{
-                    margin: "0 7px 0 0",
+                    margin: "0 8px 0 0",
                   }}
                   src="https://res.cloudinary.com/jllacson/image/upload/v1640686020/sampleShop/pngaaa.com-6471265_qclmkv.png"
                 />
@@ -184,7 +184,6 @@ const Contact = () => {
                   style={{
                     height: "58px",
                     width: "58px",
-                    margin: "3px 0 0 7px",
                   }}
                   src="https://res.cloudinary.com/jllacson/image/upload/v1640688453/sampleShop/pngaaa.com-2171439_iheag2.png"
                 />
@@ -197,8 +196,9 @@ const Contact = () => {
               >
                 <Img
                   style={{
-                    height: "58px",
+                    height: "54px",
                     width: "58px",
+                    margin: "-1px 0 0 7px",
                   }}
                   src="https://res.cloudinary.com/jllacson/image/upload/v1640754588/sampleShop/Filetype-PDF-icon_jcvpfu.png"
                 />
