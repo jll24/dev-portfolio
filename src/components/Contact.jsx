@@ -31,10 +31,11 @@ const Left = styled.div`
 const Title = styled.h2`
   font-size: 50px;
   width: 100%;
+  text-align: "center";
   color: #ff6f00;
+  margin-left: 120px;
   ${mobile({
     fontSize: "44px",
-    textAlign: "center",
     lineHeight: "50px",
     marginBottom: "10px",
   })}
@@ -196,9 +197,10 @@ const Contact = () => {
               >
                 <Img
                   style={{
-                    height: "54px",
+                    height: "56px",
                     width: "58px",
-                    margin: "-1px 0 0 7px",
+                    margin: "2px 0 0 8px",
+                    transform: "rotate(3deg)",
                   }}
                   src="https://res.cloudinary.com/jllacson/image/upload/v1640760931/sampleShop/resume-icon-png-19029_ahbmcz.png"
                 />
