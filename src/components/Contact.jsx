@@ -31,13 +31,14 @@ const Left = styled.div`
 const Title = styled.h2`
   font-size: 50px;
   width: 100%;
-  text-align: "center";
   color: #ff6f00;
   margin-left: 120px;
   ${mobile({
+    textAlign: "center",
     fontSize: "44px",
     lineHeight: "50px",
     marginBottom: "10px",
+    marginLeft: "0",
   })}
 `;
 const InfoContainer = styled.div`
