@@ -130,7 +130,7 @@ const Intro = () => {
       </Left>
       <Right>
         <MobilePic
-          media="(min-width:376px)"
+          media="(min-width:477px)"
           srcSet="https://res.cloudinary.com/jllacson/image/upload/v1640613203/sampleShop/54-removebg-preview_quudoq.png"
         />
         <ProfilePic srcSet="https://res.cloudinary.com/jllacson/image/upload/v1640613204/sampleShop/52-removebg-preview_zti7oe.png" />
