@@ -1,7 +1,7 @@
 # My Web Portfolio
 
-A beginning of a new life.
-This portfolio speaks my hardships, perserverance, learnings, and most importantly, my creativity.
+This portfolio speaks of my hardships, perseverance, learnings, and most importantly, my creativity.
+
 
 # Expect these features:
 
