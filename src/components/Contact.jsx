@@ -200,8 +200,7 @@ const Contact = () => {
                   style={{
                     height: "56px",
                     width: "58px",
-                    margin: "2px 0 0 8px",
-                    transform: "rotate(3deg)",
+                    margin: "0 0 0 8px",
                   }}
                   src="https://res.cloudinary.com/jllacson/image/upload/v1640760931/sampleShop/resume-icon-png-19029_ahbmcz.png"
                 />

@@ -40,6 +40,10 @@ const NavList = styled.ul`
 `;
 const ListItem = styled.li`
   list-style-type: none;
+  :hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
   ${mobile({
     display: "flex",
     flexDirection: "column",
