@@ -44,11 +44,11 @@ export const products = [
     },
     {
       id: 6,
-      title: "Pokédex",
-      img: "https://res.cloudinary.com/jllacson/image/upload/v1640706359/sampleShop/screencapture-localhost-3000-2021-12-28-22_23_10_emzh1l.png",
-      link: "https://po-ke-dex.herokuapp.com/",
-      source: "https://github.com/jll24/uplift-pokedex-app",
-      desc: "Gotta catch and LIST 'em all! Developed using React-Redux, CSS."
+      title: "TINY",
+      img: "https://res.cloudinary.com/jllacson/image/upload/v1640080296/sampleShop/TINY_tvz0wf.png",
+      link: "https://tiny-ph.herokuapp.com/",
+      source: "https://github.com/jll24/tiny-client",
+      desc: "Contributed as a Tech Lead, UI/UX Designer and Main Front-End Developer for this collaborative project on a blog app"
 
     },
   ];
