@@ -45,7 +45,7 @@ export const products = [
     {
       id: 6,
       title: "TINY",
-      img: "https://res.cloudinary.com/jllacson/image/upload/v1640080296/sampleShop/TINY_tvz0wf.png",
+      img: "https://res.cloudinary.com/jllacson/image/upload/v1641357026/sampleShop/screencapture-tiny-ph-herokuapp-2022-01-05-12_19_54_vio4zq.png",
       link: "https://tiny-ph.herokuapp.com/",
       source: "https://github.com/jll24/tiny-client",
       desc: "Contributed as a Tech Lead, UI/UX Designer and Main Front-End Developer for this collaborative project on a blog app"
